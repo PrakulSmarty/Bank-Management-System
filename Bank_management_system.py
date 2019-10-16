@@ -1,6 +1,7 @@
 import pickle
 import os
 import pathlib
+
 class Account :
     accNo = 0
     name = ''
@@ -47,7 +48,7 @@ class Account :
 
 def intro():
     print("\t\t\t\t**********************")
-    print("\t\t\t\tBANK MANAGEMENT SYSTEM")
+    print("\t\t\t\tBANK MANAGEMENT SYSTEM\t\t\t")
     print("\t\t\t\t**********************")
 
     print("\t\t\t\t Made By HANSIKA")
@@ -176,14 +177,14 @@ intro()
 while ch != 8:
     #system("cls");
     print("\tMAIN MENU")
-    print("\t1. NEW ACCOUNT")
-    print("\t2. DEPOSIT AMOUNT")
-    print("\t3. WITHDRAW AMOUNT")
-    print("\t4. BALANCE ENQUIRY")
-    print("\t5. ALL ACCOUNT HOLDER LIST")
-    print("\t6. CLOSE AN ACCOUNT")
-    print("\t7. MODIFY AN ACCOUNT")
-    print("\t8. EXIT")
+    print("\t 1. NEW ACCOUNT")
+    print("\t 2. DEPOSIT AMOUNT")
+    print("\t 3. WITHDRAW AMOUNT")
+    print("\t 4. BALANCE ENQUIRY")
+    print("\t 5. ALL ACCOUNT HOLDER LIST")
+    print("\t 6. CLOSE AN ACCOUNT")
+    print("\t 7. MODIFY AN ACCOUNT")
+    print("\t 8. EXIT")
     print("\tSelect Your Option (1-8) ",end = '')
     ch = input()
     #system("cls");
